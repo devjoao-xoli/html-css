@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            display: block;
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: lightcoral;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::before {
+            content: '→';
+        }
+        a::after{
+            content: '←';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://vasco.com.br/">
+            <li>Vasco</li>
+        </a>
+        <a href="chat.openai.com">
+            <li>Chat GPT</li>
+        </a>
+        <a href="https://www.google.com/search?q=camisa+newcastle+130+anos&rlz=1C1FCXM_pt-PTBR1042BR1042&hl=pt-BR&tbm=isch&sxsrf=AJOqlzWruFfDgnR22dGZlt1bnUeVPKTyOA:1677021018192&source=lnms&sa=X&ved=0ahUKEwix_saQ3qf9AhXIqZUCHV-3DMYQ_AUImQgoAQ&biw=1360&bih=667&dpr=1#imgrc=qT2kxeOyVw24RM">
+            <li>Camisa de time</li>
+        </a>
+    </ul>
+</body>
+</html>
